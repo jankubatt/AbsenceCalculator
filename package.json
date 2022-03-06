@@ -1,0 +1,32 @@
+{
+  "name": "absencecalculator",
+  "version": "1.0.0",
+  "description": "Login with Bakalari and calculate your absence.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jankubatt/AbsenceCalculator.git"
+  },
+  "keywords": [
+    "bakalari"
+  ],
+  "author": "Jan Kubat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jankubatt/AbsenceCalculator/issues"
+  },
+  "homepage": "https://github.com/jankubatt/AbsenceCalculator#readme",
+  "devDependencies": {
+    "electron": "^17.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "he": "^1.2.0",
+    "jquery": "^3.6.0",
+    "puppeteer": "^13.4.1",
+    "qs": "^6.10.3"
+  }
+}
